@@ -1,41 +1,57 @@
 .sticky li{
 	display:inline;
-	color:white;
 	font-size: 20px;
 	padding-right:10px;
 	text-transform: uppercase;
+}
+a{
+	color:white;
+	text-decoration: underline;
+}
+a:hover{
+	background-color: blue;
 }
 h1{
 	float:left;
 	text-transform: uppercase;
 }
 header{
-	font-size: 20px;
-	padding-bottom:30px;
+	font-size: 30px;
+	color:white;
+	padding-bottom:15px;
 	}
 .hero{
-	padding-bottom: 50px;
 	padding-top: 50px;
 	font-family:sans-serif;
-	font-size:200px;
+	font-size:160px;
 	text-align: center;
-	background-image:url("/images/download.png");
-	background-size: cover;
+	background-image:url("/images/index.jpeg");
+	background-size: 40%;
 	background-repeat: no-repeat;
+	background-position: center;
+}
+.center{
+	width:98%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	height:300px;
 }
 div.one {
-	background-color: olive;
+	background-color: #1519EB;
 	color:  white;
 }
 div.three{
-	background-color: aqua;
+	background-color: black;
 }
 div.four{
-	background-color: none;
-	font-size:45px;
+	background-color: black;
+	font-size:70px;
 }
 footer{
-	background-color: grey;
+	background-color: #FF402F;
 	bottom:0;
 	width:100%;
 }
@@ -44,25 +60,35 @@ section{
 }
 .section2{
 	padding-bottom: 30px;
-	padding-top: 30px;
+	padding-top: 60px;
 }
 h2{
 	text-transform: uppercase;
+	color:black;
+	padding-bottom: 10px;
+	text-decoration: underline;
+	text-align: center;
 }
 footer li{
 	display:inline;
 	text-transform: uppercase;
-	padding-right:100px;
+	padding-right:30px;
 	margin-right:50px;
 }
 .sticky{
 	position:fixed;
+	color:black;
 	top:0;
 	width:100%;
-	background-color: lightblue;
+	background-color: #FF402F;
 	text-transform: uppercase;
 }
 .section3{
 	padding-bottom: 30px;
+	font-size:30px;
+	color:white;
 	text-transform: uppercase;
+}
+.s3 h2{
+	color:white;
 }
